@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            margin: 10px;
+            background-color: pink;
+        }
+        .col-4 {
+            width: 100%;
+        }
+        .col-6 {
+            width: 100%;
+        }
+        .col-12 {
+            width: 100%;
+        }
+        @media (min-width: 765px) {
+            .col-4 {
+                width: 50%;
+            }
+        }
+        @media (min-width: 960px) {
+            .col-4 {
+                width: 33%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="col-4"></div>
+    <div class="col-6"></div>
+    <div class="col-12"></div>
+</body>
+
+</html>
